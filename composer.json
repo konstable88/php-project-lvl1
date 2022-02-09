@@ -1,0 +1,16 @@
+{
+    "name": "hexlet/code",
+    "description": "This is first project",
+    "require": {},
+    "bin": [
+	"bin/brain-games"
+    ],
+    "authors": [
+	    {
+		    "name": "Egor Kokorin",
+		    "email": "konstable88@yandex.ru",
+		    "role": "Developer"
+	    }
+    ],
+    "license": "MIT"
+}
