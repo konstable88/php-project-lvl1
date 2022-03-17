@@ -1,3 +1,5 @@
-#!/usr/bin/env php
-
-Welcome to the Brain Games!
+#! /usr/bin/env php
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+#До выполнение цели в этом файле вызов не работал.
+getPlayerName();
