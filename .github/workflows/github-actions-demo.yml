@@ -16,6 +16,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   lint:
-    runs-on: push
+    runs-on: ubuntu-latest
     steps:
+      - step: lint-step
       - run: make lint
